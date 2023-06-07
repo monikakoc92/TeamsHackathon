@@ -1,0 +1,3 @@
+String myName = "Adam";
+
+Console.WriteLine("$Hello World" {myName}!);
