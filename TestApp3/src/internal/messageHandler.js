@@ -1,3 +1,4 @@
+console.log(context.activity);
 const { TeamsBot } = require("../teamsBot");
 const { notificationApp } = require("./initialize");
 const { ResponseWrapper } = require("./responseWrapper");
