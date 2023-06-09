@@ -9,3 +9,11 @@ class TeamsBot extends TeamsActivityHandler {
 }
 
 module.exports.TeamsBot = TeamsBot;
+
+async function run(context) {
+  if (context.activity.type === "message") {
+  
+  } else if (context.activity.type === "invoke" && context.activity.name === "adaptiveCard/action") {
+  await handleCardAction(context);
+  }
+ }
