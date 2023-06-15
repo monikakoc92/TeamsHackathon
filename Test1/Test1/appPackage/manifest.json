@@ -15,12 +15,12 @@
         "outline": "outline.png"
     },
     "name": {
-        "short": "ThirstyApp-${{TEAMSFX_ENV}}",
-        "full": "full name for ThirstyApp"
+        "short": "Test1-${{TEAMSFX_ENV}}",
+        "full": "full name for Test1"
     },
     "description": {
-        "short": "short description for ThirstyApp",
-        "full": "full description for ThirstyApp"
+        "short": "short description for Test1",
+        "full": "full description for Test1"
     },
     "accentColor": "#FFFFFF",
     "bots": [
@@ -46,8 +46,8 @@
                             "description": "Resend welcome card of this Bot"
                         },
                         {
-                            "title": "learn",
-                            "description": "Learn about Adaptive Card and Bot Command"
+                            "title": "set timer",
+                            "description": "Set timer for water reminder"
                         }
                     ]
                 }
