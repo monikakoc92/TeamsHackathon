@@ -115,6 +115,7 @@ class TeamsBot extends TeamsActivityHandler {
   }*/
 }
 
+/*
 class TeamsBot extends TeamsActivityHandler {
   // Handler for button clicks in Adaptive Cards
   async onMessageActivity(context, next) {
@@ -142,5 +143,6 @@ class TeamsBot extends TeamsActivityHandler {
   });
   }
  }
+ */
 
 module.exports.TeamsBot = TeamsBot;
