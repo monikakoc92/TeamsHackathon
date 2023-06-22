@@ -70,6 +70,7 @@ server.post("/api/new-trigger", async (req, res) => {
   });
 });
 
+/*
 const { TeamsBot } = require('./teamsBot');
 const { FifeteenMinsButtonActionHandler } = require('./15minsButtonActionHandler');
 
@@ -77,3 +78,4 @@ const { FifeteenMinsButtonActionHandler } = require('./15minsButtonActionHandler
 const handler = new FifeteenMinsButtonActionHandler();
 bot.onTeamsCardActionInvoke(handler.handleActionInvoked.bind(handler));
 module.exports = bot;
+*/
